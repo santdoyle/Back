@@ -4,9 +4,8 @@ const jwt = require('jsonwebtoken')
 const {config} = require('../../config')
 
 /**
- * Endpoint POST /login.
  * Set user data on request body as JSON format.
- * Return Json respond.
+ * Return Json.
  */
 routerLogin.post('/login', (req, resp, next) => {
     passport.authenticate('login', (err, user, info) => {
