@@ -46,7 +46,7 @@ Para **iniciar sesión** y autorizar el acceso al sistema se deben enviar los si
 ### /posts-lists
 | Path  | Method | Description |
 | ------------- | ------------- | ------- |
-| /posts-lists  | GET | Retorna el listado de artículos como Array|
+| /posts-list  | GET | Retorna el listado de artículos como Array|
 | /photos-list  | GET  | Retorna listado de imagenes, con límite de 10 por petición. |
 
 
